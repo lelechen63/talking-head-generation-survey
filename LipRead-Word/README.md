@@ -24,10 +24,10 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m pdb train.py --encode 233 --num_workers 1
 
 Test the result on lrs3 test dataset. Uncomment *test(opt)* and comment *train(opt)* in *train.py*.
 
-|       | Top1  | Top5  | Top10 |
-| :---: | :---: | :---: | :---: |
-| 50-w  |       |       |       |
-| 100-w |       |       |       |
-| 200-w | 76.31 | 91.16 | 93.57 |
-| 300-w | 35.48 | 61.60 | 71.53 |
+|       | Top1 | Top5 | Top10 |
+| :---: | :--: | :--: | :---: |
+| 50-w  |      |      |       |
+| 100-w |      |      |       |
+| 200-w |      |      |       |
+| 300-w |      |      |       |
 
